@@ -16,6 +16,7 @@ main() {
   bool produtoCaro = false;
 
   print(produtoFragil && produtoCaro); // E
+  // ignore: dead_code
   print(produtoFragil || produtoCaro); // OU
   print(produtoFragil ^ produtoCaro); // OU exclusivo
   print(!produtoFragil); // Negação
